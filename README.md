@@ -41,7 +41,7 @@ Me encanta aprender nuevas tecnologías y trabajar en proyectos colaborativos qu
 ### 🛍 Beauty Shop
 **Descripción:** Carrito de compras para practicar DOM y lógica de negocio.  
 **Stack:** HTML + CSS + JavaScript  
-**Links:** [GitHub](https://github.com/Ludmimar)  
+**Links:** [GitHub](https://github.com/Ludmimar/Actividad_Semana_04_Bam_2.0)  
 
 ### ☕ Java Digitalers
 **Descripción:** Proyectos realizados durante el cursado del programa FullStack Java.  
