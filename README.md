@@ -4,7 +4,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ludmimar89/)
 
 ---
----
 
 ## 👩‍💻 Sobre mí
 Soy desarrolladora FullStack apasionada por crear aplicaciones funcionales, limpias y con buena experiencia de usuario.  
