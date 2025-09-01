@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ludmila Martos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        referrerpolicy="no-referrer" />
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("VKK1bOMx-UIll-q1F"); // <-- reemplaza con tu Public Key de EmailJS
+        })();
+    </script>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="petal-container"></div>
+        <div class="container">
+            <nav>
+                <div class="logo"><img src="img/cherry-blossom.png" alt="Flor de cerezo" class="icon-yarn" /> Ludmila
+                    Martos</div>
+                <!-- Botón hamburguesa -->
+                <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#historia">Historia</a></li>
+                    <li><a href="#skills">Superpoderes</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#futuro">Futuro</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="hero">
+                <img src="img/profile.png" alt="Foto de Ludmila" class="profile" />
+                <h1>De conectar con personas a conectar con tecnología </h1>
+                <p>
+                    Vengo del mundo de <strong>ventas y atención al cliente</strong>, donde aprendí a escuchar y adaptarme rápido.
+                    Hoy vuelvo a mi primer amor: la <em>programación</em>. Me inspiran el <strong>anime</strong>
+                    <img src="img/estrella-alada1.png" alt="Flore de cerezo" class="icon-yarn" />, las <em>flores de cerezo</em> <img
+                        src="img/cherry-blossom.png" alt="Flor de cerezo" class="icon-yarn" /> y el <strong>tejido a crochet</strong>
+                    <img src="img/yarn.png" alt="Ovillo de lana" class="icon-yarn" />, y quiero que mi código también refleje esa pasión y dedicación.
+                </p>
+                <div class="buttons">
+                    <a id="downloadBtn" class="btn"> <i class="fa-solid fa-download"></i> Descargar CV</a>
+                    <a class="btn" href="https://github.com/Ludmimar" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a class="btn" href="https://www.linkedin.com/in/ludmimar89" target="_blank"><i class="fa-brands fa-linkedin"> </i> LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mini sticky chips con secciones -->
+    <div class="sticky-bar">
+        <div class="container">
+            <div class="mini">
+                <a class="chip" href="#historia"><i class="fa-solid fa-route"></i> Mi historia</a>
+                <a class="chip" href="#skills"><i class="fa-solid fa-bolt"></i> Superpoderes</a>
+                <a class="chip" href="#proyectos"><i class="fa-solid fa-code"></i> Proyectos</a>
+                <a class="chip" href="#futuro"><i class="fa-solid fa-seedling"></i> Futuro</a>
+                <a class="chip" href="#contacto"><i class="fa-solid fa-envelope"></i> Contacto</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Historia -->
+    <section id="historia" class="container">
+        <h2 class="reveal"><i class="fa-solid fa-route"></i> Mi Historia</h2><br>
+        <p class="muted reveal">
+            <strong>
+                <i class="fa-solid fa-briefcase"></i> Ventas →
+                <i class="fa-solid fa-book"></i> Formación →
+                <i class="fa-solid fa-code"></i> Desarrollo
+            </strong>
+        </p>
+        <div class="timeline">
+            <div class="t-item reveal">
+                <div class="t-icon"><i class="fa-solid fa-briefcase"></i></div>
+                <div class="t-card">
+                    <h3>Ventas & Atención al Cliente</h3>
+                    <p>Durante años trabajé en call centers en <strong>atención, ventas y retención</strong>. Siempre recibí buenas devoluciones por mi 
+                        <em>adaptación rápida</em> y capacidad de <strong>aprender al instante</strong> cada nueva tarea.
+                    </p>
+                </div>
+            </div>
+            <div class="t-item reveal">
+                <div class="t-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="t-card">
+                    <h3>Formación & Transición</h3>
+                    <p>Estudié <strong>Tecnicatura en Programación en UTN</strong> y, aunque la vida me alejó un tiempo, hace unos años retomé con cursos
+                         becados y proyectos autodidactas. Descubrí que programar es como tejer: paciencia, lógica y creatividad.
+                </div>
+            </div>
+            <div class="t-item reveal">
+                <div class="t-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <div class="t-card">
+                    <h3>Hoy: Desarrollo Web</h3>
+                    <p>Construyo proyectos web y aplicaciones con <strong>HTML, CSS, JS y Java</strong>, buscando siempre que el resultado
+                        sea tan armonioso como un buen tejido y tan mágico como un capítulo de <em>Anime</em>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Superpoderes -->
+    <section id="skills" class="container">
+        <h2 class="reveal"><i class="fa-solid fa-bolt"></i> Mis Superpoderes</h2><br>
+        <p class="muted reveal"><strong>Mis <em>soft skills</em> de ventas + mis <em>tech skills</em> en IT </strong>
+        </p>
+        <div class="skills">
+            <div class="skill-card reveal">
+                <div class="skill-title"><i class="fa-solid fa-users"></i> Soft Skills (Ventas)</div>
+                <div class="skill-list">
+                    <span class="badge"><i class="fa-regular fa-ear-listen"></i> Escucha activa</span>
+                    <span class="badge"><i class="fa-solid fa-comments"></i> Comunicación clara</span>
+                    <span class="badge"><i class="fa-solid fa-lightbulb"></i> Resolución de objeciones</span>
+                    <span class="badge"><i class="fa-solid fa-handshake-angle"></i> Empatía & servicio</span>
+                    <span class="badge"><i class="fa-solid fa-gauge-high"></i> Orientación a resultados</span>
+                    <span class="badge"><i class="fa-solid fa-people-group"></i> Trabajo en equipo</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-title"><i class="fa-solid fa-code"></i> Tech Skills (IT)</div>
+                <div class="skill-list">
+                    <span class="badge"><i class="fa-brands fa-html5"></i> HTML</span>
+                    <span class="badge"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                    <span class="badge"><i class="fa-brands fa-js"></i> JavaScript</span>
+                    <span class="badge"><i class="fa-brands fa-java"></i> Java / POO</span>
+                    <span class="badge"><i class="fa-brands fa-angular"></i> Angular</span>
+                    <span class="badge"><i class="fa-brands fa-node-js"></i> Node.js</span>
+                    <span class="badge"><i class="fa-brands fa-sass"></i> SCSS</span>
+                    <span class="badge"><i class="fa-brands fa-git-alt"></i> Git</span>
+                    <span class="badge"><i class="fa-solid fa-database"></i> MySQL</span>
+                    <span class="badge"><i class="fa-brands fa-python"></i> Python</span>
+                    <span class="badge"><i class="fa-brands fa-java"></i> SpringBoot</span>
+                    <span class="badge"><i class="fa-solid fa-code"></i> Express</span>
+                    <span class="badge"><img src="img/sequelize-logo.png" alt="Sequelize" style="width:16px; height:16px;"> Sequelize</span>
+                    <span class="badge"><i class="fa-brands fa-figma"></i> Figma</span>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="container">
+        <h2 class="reveal"><i class="fa-solid fa-laptop-code"></i> Proyectos</h2><br>
+        <p class="muted reveal"><strong>Cada proyecto cuenta una parte del viaje: práctica, colaboración y entrega de
+                valor.</strong></p>
+        <div class="projects">
+            <!-- Card 1 -->
+            <article class="card reveal" data-title="Incubadora NOC"
+                data-desc="Plataforma para gestionar cursos, alumnos y pagos. Proyecto Bootcamp Santex."
+                data-stack="Angular · SCSS · Node.js · Express · Sequelize · MySQL"
+                data-link="https://github.com/Ludmimar/Incubadora_Noc">
+                <img src="img/incubadora.png" alt="Incubadora NOC" />
+                <div class="card-body">
+                    <h3>Incubadora NOC</h3>
+                    <p class="stack">Proyecto colaborativo estilo real: gestión de cursos y cohortes.</p>
+                    <span class="pill">Angular · SCSS · Node.js · Express · Sequelize · MySQL</span>
+                </div>
+            </article>
+            <!-- Card 2 -->
+            <article class="card reveal" data-title="Conversor de Moneda"
+                data-desc="App en Java orientada a objetos para practicar lógica y POO." data-stack="Java · POO"
+                data-link="https://github.com/Ludmimar/DesafioConversorDeMoneda">
+                <img src="img/conversor.png" alt="Conversor de Moneda" />
+                <div class="card-body">
+                    <h3>Conversor de Moneda</h3>
+                    <p class="stack">Práctica de lógica y diseño de clases.</p>
+                    <span class="pill">Java · POO</span>
+                </div>
+            </article>
+            <!-- Card 3 -->
+            <article class="card reveal" data-title="Beauty Shop"
+                data-desc="Página de belleza desarrollada para practicar la implementación de un carrito de compras dinámico."
+                data-stack="HTML · CSS · JS" data-link="https://github.com/Ludmimar/Actividad_Semana_04_Bam_2.0"
+                data-demo="https://ludmila-martos-beauty.netlify.app/">
+                <img src="img/beauty.jpg" alt="Beauty Shop" />
+                <div class="card-body">
+                    <h3>Beauty Shop</h3>
+                    <p class="stack">Carrito, eventos y manipulación del DOM.</p>
+                    <span class="pill">HTML · CSS · JS</span>
+                </div>
+            </article>
+            <!-- Card 4 -->
+            <article class="card reveal" data-title="Gestión de Notas de Alumnos"
+                data-desc="El programa permite cargar alumnos, calcular promedios, asignar condiciones y realizar búsquedas y modificaciones de notas de forma interactiva con la consola."
+                data-stack="Python"
+                data-link="https://github.com/Ludmimar/ISSD/tree/main/Programacion%201/Coloquio%20Promocional">
+                <!-- Icono Python SVG centrado -->
+                <img id="img-proyecto"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+                <div class="card-body">
+                    <h3>Gestión de Notas de Alumnos </h3>
+                    <p class="stack">Programa en Python que permite la gestión de notas de alumnos en un colegio. </p>
+                    <span class="pill">Python</span>
+                </div>
+            </article>
+            <!-- Card 5 -->
+            <article class="card reveal" data-title="Proyectos de clase"
+                data-desc="Proyectos realiados durante el cursado del programa FullStack Java"
+                data-stack="Java · Spring · HTML · CSS · JS"
+                data-link="https://github.com/Ludmimar/Java-Digitalers/tree/main"
+                data-demo="https://fintech-banco.netlify.app">
+                <!-- Icono Python SVG centrado -->
+                <img id="img-proyecto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                    alt="Java Digitalers" />
+                <div class="card-body">
+                    <h3>Java Digitalers</h3>
+                    <p class="stack">Proyectos realizados durante el cursado del programa FullStack Java.</p>
+                    <span class="pill">Java · Spring · HTML · CSS · JS</span>
+                </div>
+            </article>
+            <!-- Card 6 -->
+            <article class="card reveal" data-title="Codo a codo"
+                data-desc="Landing page interactiva que permite explorar diferentes cursos de formación en línea."
+                data-stack="HTML · CSS · JS" data-link="https://github.com/Ludmimar/CodoaCodo-Grupo01"
+                data-demo="https://ludmimar.github.io/CodoaCodo-Grupo01">
+                <img src="img/salusjpg.jpg" alt="Salus" />
+                <div class="card-body">
+                    <h3>Codo a codo</h3>
+                    <p class="stack">Plataforma de Cursos Online – Landing Page Interactiva.</p>
+                    <span class="pill">HTML · CSS · JS</span>
+                </div>
+            </article>
+            <!-- Card 7 -->
+            <article class="card reveal" data-title="Desafio-Java"
+                data-desc="Aplicación en Java que consume la API pública Gutendex para explorar el catálogo de libros de Project Gutenberg."
+                data-stack="JAVA"
+                data-link="https://github.com/Ludmimar/Desafio-Java-trabajando-con-lambdas-streams-y-Spring-Framework">
+                <img id="img-proyecto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                    alt="Java" />
+                <div class="card-body">
+                    <h3>Desafio-Java</h3>
+                    <p class="stack">Proyecto: Explorador de Libros – Gutendex API</p>
+                    <span class="pill">JAVA</span>
+                </div>
+            </article>
+            <!-- Card 8 -->
+            <article class="card reveal" data-title="Encriptador de texto"
+                data-desc="Aplicación web en JavaScript que encripta y desencripta textos usando reglas de sustitución, con posibilidad de copiar el resultado al portapapeles. Proyecto pensado para practicar manipulación del DOM, uso de expresiones regulares, eventos en botones y diseño responsive con CSS."
+                data-stack="HTML · CSS ·  JS"
+                data-link="https://github.com/Ludmimar/Encriptador-de-Texto/tree/main?tab=readme-ov-file"
+                data-demo="https://ludmimar.github.io/Encriptador-de-Texto/">
+                <img src="img/encriptador.jpg" alt="Encriptador" />
+                <div class="card-body">
+                    <h3>Encriptador de texto</h3>
+                    <p class="stack">Este proyecto fue realizado para el curso de Lógica de programación de ALURA LATAM!
+                    </p>
+                    <span class="pill">HTML · CSS · JS</span>
+                </div>
+            </article>
+            <!-- Card 9 -->
+            <article class="card reveal" data-title="Proyecto: API REST Portfolio Personal"
+                data-desc="El proyecto implementa un sistema CRUD completo para administrar: ->Personas: datos personales y perfil. ->Educación: registros académicos. ->Experiencia: proyectos y experiencia laboral."
+                data-stack="Java · SpringBoot · MySQL"
+                data-link="https://github.com/Ludmimar/Argentina-Programa-MyPortfolio-Backend">
+                <img id="img-proyecto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                    alt="backend" />
+                <div class="card-body">
+                    <h3>Proyecto: API REST Portfolio Personal</h3>
+                    <p class="stack">Desarrollé una aplicación backend en Spring Boot para gestionar información de un
+                        portfolio web.</p>
+                    <span class="pill">JAVA · SpringBoot · MySQL</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Futuro -->
+    <section id="futuro" class="future">
+        <div class="container">
+            <h2 class="reveal"><i class="fa-solid fa-seedling"></i> Mi Futuro</h2>
+            <div class="goal reveal">
+                <div><i class="fa-solid fa-seedling"></i></div>
+                <div>
+                    <p>Quiero crecer en un equipo de <strong>desarrollo</strong>, aportando mi <em>pasión</em>,
+                        mi capacidad de <em>aprender rápido</em> y mi <em>creatividad</em>.
+                        Sueño con aportar en proyectos que hagan la vida de las personas más fácil y linda,
+                        como una flor de cerezo en primavera 🌸.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pasiones -->
+    <section id="gustos" class="reveal">
+        <div class="container">
+            <h2><i class="fa-solid fa-palette"></i> Mis pasiones</h2><br>
+            <div class="gustos-grid">
+                <div class="gusto-card">
+                    <img src="img/estrella-alada1.png" alt="Flore de cerezo" class="icon-yarn" />
+                    <h3>Anime</h3>
+                    <p>Historias que me inspiran a nunca rendirme y buscar siempre mejorar.</p>
+                </div>
+                <div class="gusto-card">
+                    <img src="img/cherry-blossom.png" alt="Flor de cerezo" class="icon-yarn" />
+                    <h3>Flores de cerezo</h3>
+                    <p>Me recuerdan que cada instante cuenta, y que en lo fugaz habita la magia.</p>
+                </div>
+                <div class="gusto-card">
+                    <img src="img/yarn.png" alt="Ovillo de lana" class="icon-yarn" />
+                    <h3>Crochet</h3>
+                    <p>Tejer con paciencia y creatividad, igual que programar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="container">
+        <h2 class="reveal">Contacto</h2><br>
+        <div class="contact">
+            <div class="reveal">
+                <p class="muted"><strong>¿Charlamos? Estoy abierta a colaborar en proyectos, prácticas y nuevas
+                        oportunidades </strong>
+                </p>
+                <div class="links" style="margin:.5rem 0 1rem 0">
+                    <a class="cta" href="mailto:ludmilamartos@gmail.com"><i class="fa-regular fa-paper-plane"></i>
+                        Email</a>
+                    <a class="cta" target="_blank" href="https://www.linkedin.com/in/ludmimar89"><i
+                            class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+            <form id="contact-form" class="reveal">
+                <input type="text" name="name" placeholder="Nombre" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <textarea name="message" rows="5" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>© 2025 · Portfolio de <strong>Ludmila Martos</strong></p>
+            <p class="made-with">Hecho con <i class="fa-solid fa-heart"></i> y <i class="fa-solid fa-mug-hot"></i></p>
+            <div class="footer-social">
+                <a href="https://github.com/Ludmimar" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ludmimar89/" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="mailto:ludmilamartos@gmail.com" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Modal Proyecto -->
+    <div class="modal" id="modal">
+        <div class="box">
+            <div class="box-head">
+                <h3 id="m-title">Proyecto</h3>
+                <button class="close" id="m-close" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="box-body">
+                <img id="m-img" alt="" />
+                <p id="m-desc" style="margin:.6rem 0"></p>
+                <p id="m-stack" class="muted"></p>
+                <p style="margin-top:.8rem">
+                    <a id="m-link" class="btn" target="_blank" href="#">🔗 Ver en GitHub</a>
+                    <a id="m-demo" class="btn demo" target="_blank" href="#">🌐 Ver Demo</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <button id="scrollTopBtn" aria-label="Volver arriba"> <i class="fas fa-arrow-up"></i></button>
+    <script defer src="script.js"></script>
+</body>
+</html>
