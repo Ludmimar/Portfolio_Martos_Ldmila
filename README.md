@@ -57,7 +57,7 @@ Me encanta aprender nuevas tecnologías y trabajar en proyectos colaborativos qu
 ---
 
 ## 📫 Contacto
-- Email: [ludmila@example.com](mailto:ludmilamartos@gmail.com)  
+- Email: [ludmilamartos@gmail.com](mailto:ludmilamartos@gmail.com)  
 - LinkedIn: [linkedin.com/in/ludmimar89/](https://www.linkedin.com/in/ludmimar89/)  
 - GitHub: [github.com/Ludmimar](https://github.com/Ludmimar)  
 
